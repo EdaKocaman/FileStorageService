@@ -1,0 +1,123 @@
+2025-02-25 12:50:11 - HV000001: Hibernate Validator 8.0.1.Final
+2025-02-25 12:50:11 - Starting FileStorageServiceApplication using Java 17.0.13 with PID 87813 (/Users/edakocaman/Downloads/FileStorageService/build/classes/java/main started by edakocaman in /Users/edakocaman/Downloads/FileStorageService)
+2025-02-25 12:50:11 - Running with Spring Boot v3.2.2, Spring v6.1.3
+2025-02-25 12:50:11 - No active profile set, falling back to 1 default profile: "default"
+2025-02-25 12:50:12 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-25 12:50:12 - Finished Spring Data repository scanning in 73 ms. Found 6 JPA repository interfaces.
+2025-02-25 12:50:12 - Tomcat initialized with port 8080 (http)
+2025-02-25 12:50:12 - Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-25 12:50:12 - Starting service [Tomcat]
+2025-02-25 12:50:12 - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2025-02-25 12:50:12 - Initializing Spring embedded WebApplicationContext
+2025-02-25 12:50:12 - Root WebApplicationContext: initialization completed in 615 ms
+2025-02-25 12:50:12 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-25 12:50:12 - HHH000412: Hibernate ORM core version 6.4.1.Final
+2025-02-25 12:50:12 - HHH000026: Second-level cache disabled
+2025-02-25 12:50:12 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-25 12:50:12 - HikariPool-1 - Starting...
+2025-02-25 12:50:12 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@48106381
+2025-02-25 12:50:12 - HikariPool-1 - Start completed.
+2025-02-25 12:50:12 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-25 12:50:13 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-25 12:50:13 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-25 12:50:13 - FileUploadController loaded successfully.
+2025-02-25 12:50:13 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-25 12:50:13 - Starting ProtocolHandler ["http-nio-8080"]
+2025-02-25 12:50:13 - Tomcat started on port 8080 (http) with context path ''
+2025-02-25 12:50:13 - Started FileStorageServiceApplication in 2.122 seconds (process running for 2.265)
+2025-02-25 12:50:21 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-25 12:50:21 - Initializing Servlet 'dispatcherServlet'
+2025-02-25 12:50:21 - Completed initialization in 3 ms
+2025-02-25 12:50:21 - Audit log saved: Action=ERROR, EntityType=ERROR, PerformedBy=3e013e53-c3aa-4cfb-b7d9-a4d58c978172
+2025-02-25 12:50:22 - Audit log saved: Action=ERROR, EntityType=ERROR, PerformedBy=3e013e53-c3aa-4cfb-b7d9-a4d58c978172
+2025-02-25 12:50:22 - Audit log saved: Action=ERROR, EntityType=ERROR, PerformedBy=3e013e53-c3aa-4cfb-b7d9-a4d58c978172
+2025-02-25 12:50:22 - Audit log saved: Action=ERROR, EntityType=ERROR, PerformedBy=3e013e53-c3aa-4cfb-b7d9-a4d58c978172
+2025-02-25 12:50:23 - Init duration for springdoc-openapi is: 176 ms
+2025-02-25 12:50:49 - Permission check: true
+2025-02-25 12:50:49 - Permission check: true
+2025-02-25 12:50:49 - Full Path: /Users/edakocaman/Downloads/FileStorageService/upload-dir/TestDirectory
+2025-02-25 12:50:49 - GET DIRECTORY: name: TestDirectoryfull path: /Users/edakocaman/Downloads/FileStorageService/upload-dir/TestDirectoryuser: User(userId=3, userUuid=3e013e53-c3aa-4cfb-b7d9-a4d58c978172, username=EdaKocaman, password=123, createdAt=2025-01-28T10:43:29.731555, roles=[com.example.FileStorageService.model.UserRole@2e7717a2, com.example.FileStorageService.model.UserRole@230e3a38, com.example.FileStorageService.model.UserRole@1a69f059, com.example.FileStorageService.model.UserRole@c353eb1])parent: null
+2025-02-25 12:50:49 - Directory created successfully (logAudit)
+2025-02-25 12:50:49 - Directory created successfully: TestDirectory
+2025-02-25 12:59:43 - Permission check: true
+2025-02-25 12:59:43 - Permission check: true
+2025-02-25 12:59:43 - Target directory found: /Users/edakocaman/Downloads/FileStorageService/upload-dir/TestDirectory
+2025-02-25 12:59:43 - SourcePath: /Users/edakocaman/Downloads/FileStorageService/upload-dir/testDir18
+2025-02-25 12:59:43 - TargetPath: /Users/edakocaman/Downloads/FileStorageService/upload-dir/TestDirectory/testDir18_copy
+2025-02-25 12:59:43 - Directory copied successfully: /Users/edakocaman/Downloads/FileStorageService/upload-dir/testDir18 -> /Users/edakocaman/Downloads/FileStorageService/upload-dir/TestDirectory/testDir18_copy
+2025-02-25 12:59:43 - New directory record created: bdb0128e-f8af-40df-a56f-290472c545c4
+2025-02-25 12:59:43 - Directory copied successfully.
+2025-02-25 13:07:48 - Received request to move directory 74 to 72
+2025-02-25 13:07:48 - Permission check: true
+2025-02-25 13:07:48 - Permission check: true
+2025-02-25 13:07:48 - Source Directory: Directory{id=74, guid=28d7b1b5-1716-49ee-a223-c99d9ee889b6, name='testDir18_copy', path='/Users/edakocaman/Downloads/FileStorageService/upload-dir/TestDirectory/testDir18_copy', parent=TestDirectory, createdBy=null, createdAt=2025-02-25T12:59:43.704807, updatedBy=null, updatedAt=2025-02-25T12:59:43.704818}
+2025-02-25 13:07:48 - Target Directory: Directory{id=72, guid=cdaa0ece-4ba1-463b-a537-e16b29974d45, name='TestDirectory', path='/Users/edakocaman/Downloads/FileStorageService/upload-dir/TestDirectory', parent=null, createdBy=EdaKocaman, createdAt=2025-02-25T12:50:49.059721, updatedBy=EdaKocaman, updatedAt=2025-02-25T12:50:49.059726}
+2025-02-25 13:07:48 - Cannot move directory: Target directory is the same as the source directory or is a subdirectory of the source.
+2025-02-25 13:07:48 - Error occurred while moving directory: Cannot move directory: Invalid target directory.
+2025-02-25 13:07:48 - Error moving directory: Directory move failed: Cannot move directory: Invalid target directory.
+2025-02-25 13:09:11 - Received request to move directory 59 to 72
+2025-02-25 13:09:11 - Permission check: true
+2025-02-25 13:09:11 - Permission check: true
+2025-02-25 13:09:11 - Source Directory: Directory{id=59, guid=4b28020d-10b1-41d8-8cc1-63be49deaa57, name='test9', path='/Users/edakocaman/Downloads/FileStorageService/upload-dir/test8/test9_copy', parent=null, createdBy=EdaKocaman, createdAt=2025-02-12T10:36:29.470172, updatedBy=null, updatedAt=2025-02-12T10:36:29.470181}
+2025-02-25 13:09:11 - Target Directory: Directory{id=72, guid=cdaa0ece-4ba1-463b-a537-e16b29974d45, name='TestDirectory', path='/Users/edakocaman/Downloads/FileStorageService/upload-dir/TestDirectory', parent=null, createdBy=EdaKocaman, createdAt=2025-02-25T12:50:49.059721, updatedBy=EdaKocaman, updatedAt=2025-02-25T12:50:49.059726}
+2025-02-25 13:09:11 - Source Directory: /Users/edakocaman/Downloads/FileStorageService/upload-dir/test8/test9_copy
+2025-02-25 13:09:11 - Target Directory: /Users/edakocaman/Downloads/FileStorageService/upload-dir/TestDirectory
+2025-02-25 13:09:11 - Source directory path: /Users/edakocaman/Downloads/FileStorageService/upload-dir/test8/test9_copy
+2025-02-25 13:09:11 - Target directory path: /Users/edakocaman/Downloads/FileStorageService/upload-dir/TestDirectory
+2025-02-25 13:09:11 - Directory test9 moved to directory TestDirectory
+2025-02-25 13:13:45 - Permission check: true
+2025-02-25 13:13:45 - Permission check: true
+2025-02-25 13:13:45 - Directory deleted from filesystem: /Users/edakocaman/Downloads/FileStorageService/upload-dir/TestDirectory/testDir18_copy
+2025-02-25 13:13:45 - Directory 28d7b1b5-1716-49ee-a223-c99d9ee889b6 deleted successfully by user 3e013e53-c3aa-4cfb-b7d9-a4d58c978172
+2025-02-25 13:15:51 - Permission check: false
+2025-02-25 13:15:51 - Permission denied: DELETE_DIRECTORY
+2025-02-25 13:15:51 - Permission error: Permission denied: DELETE_DIRECTORY
+2025-02-25 13:23:06 - File upload request received: filename=test30.rtf, directoryId=null, directoryName=null, directoryPath=null, userUuid=3e013e53-c3aa-4cfb-b7d9-a4d58c978172
+2025-02-25 13:23:06 - Permission check: true
+2025-02-25 13:23:06 - Default directory '/root' not found.
+2025-02-25 13:23:06 - Directory Path: upload-dir
+2025-02-25 13:23:06 - Target Directory: upload-dir/upload-dir
+2025-02-25 13:23:06 - File saved successfully: test30.rtf
+2025-02-25 13:23:06 - Audit log saved
+2025-02-25 13:23:06 - File uploaded successfully: id=79, name=test30.rtf
+2025-02-25 13:23:06 - Audit log saved: Action=ERROR, EntityType=ERROR, PerformedBy=3e013e53-c3aa-4cfb-b7d9-a4d58c978172
+2025-02-25 13:24:17 - File upload request received: filename=TestFile.rtf, directoryId=null, directoryName=null, directoryPath=null, userUuid=3e013e53-c3aa-4cfb-b7d9-a4d58c978172
+2025-02-25 13:24:17 - Permission check: true
+2025-02-25 13:24:17 - Default directory '/root' not found.
+2025-02-25 13:24:17 - Directory Path: upload-dir
+2025-02-25 13:24:17 - Target Directory: upload-dir/upload-dir
+2025-02-25 13:24:17 - File saved successfully: TestFile.rtf
+2025-02-25 13:24:17 - Audit log saved
+2025-02-25 13:24:17 - File uploaded successfully: id=80, name=TestFile.rtf
+2025-02-25 13:24:17 - Audit log saved: Action=ERROR, EntityType=ERROR, PerformedBy=3e013e53-c3aa-4cfb-b7d9-a4d58c978172
+2025-02-25 13:34:39 - Permission check: true
+2025-02-25 13:34:39 - Source file path: /Users/edakocaman/Downloads/FileStorageService/upload-dir/TestFile.rtf
+2025-02-25 13:34:39 - Target directory path: /Users/edakocaman/Downloads/FileStorageService/upload-dir/TestDirectory
+2025-02-25 13:34:39 - Error occurred while moving file: Source 'upload-dir/TestFile.rtf' does not exist
+2025-02-25 13:34:39 - File move failed: File move failed: Source 'upload-dir/TestFile.rtf' does not exist
+2025-02-25 13:49:14 - Received request: fileGuid=9d411a62-1b54-49c2-b06e-1af20681ef17, targetDirectoryGuid=a5da6053-48df-4d5e-a3c3-15333bdbce17
+2025-02-25 13:49:14 - Permission check: false
+2025-02-25 13:49:14 - Permission denied: COPY_FILE
+2025-02-25 13:49:14 - Audit log saved: Action=ERROR, EntityType=ERROR, PerformedBy=3e013e53-c3aa-4cfb-b7d9-a4d58c978172
+2025-02-25 13:53:26 - Permission check: true
+2025-02-25 13:53:26 - Deleting file with ID: 67
+2025-02-25 13:56:04 - Permission check: false
+2025-02-25 13:56:04 - Permission denied: DELETE_FILE
+2025-02-25 13:56:04 - Error deleting file: Permission denied: DELETE_FILE
+2025-02-25 14:00:29 - Audit log saved: Action=ERROR, EntityType=ERROR, PerformedBy=3e013e53-c3aa-4cfb-b7d9-a4d58c978172
+2025-02-25 14:00:48 - Permission check: false
+2025-02-25 14:00:48 - Permission denied: LIST_DIRECTORIES
+2025-02-25 14:01:01 - Permission check: false
+2025-02-25 14:01:01 - Permission denied: LIST_DIRECTORIES
+2025-02-25 14:01:14 - Audit log saved: Action=ERROR, EntityType=ERROR, PerformedBy=3e013e53-c3aa-4cfb-b7d9-a4d58c978172
+2025-02-25 14:06:03 - Audit log saved: Action=ERROR, EntityType=ERROR, PerformedBy=3e013e53-c3aa-4cfb-b7d9-a4d58c978172
+2025-02-25 14:10:09 - Permission check: false
+2025-02-25 14:10:09 - Permission denied: ASSIGN_ROLE
+2025-02-25 14:10:09 - Audit log saved: Action=ERROR, EntityType=ERROR, PerformedBy=3e013e53-c3aa-4cfb-b7d9-a4d58c978172
+2025-02-25 14:11:48 - Permission check: true
+2025-02-25 14:11:48 - Creating user with username: TestUser
+2025-02-25 14:11:48 - Creating new user with username: TestUser
+2025-02-25 14:35:35 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m21s578ms).
+2025-02-25 14:38:06 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-25 14:38:06 - HikariPool-1 - Shutdown initiated...
+2025-02-25 14:38:06 - HikariPool-1 - Shutdown completed.

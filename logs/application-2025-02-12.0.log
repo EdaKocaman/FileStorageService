@@ -1,0 +1,880 @@
+2025-02-12 00:01:03 - HV000001: Hibernate Validator 8.0.1.Final
+2025-02-12 00:01:03 - Starting FileStorageServiceApplication using Java 17.0.13 with PID 27364 (/Users/edakocaman/Downloads/FileStorageService/build/classes/java/main started by edakocaman in /Users/edakocaman/Downloads/FileStorageService)
+2025-02-12 00:01:03 - Running with Spring Boot v3.2.2, Spring v6.1.3
+2025-02-12 00:01:03 - No active profile set, falling back to 1 default profile: "default"
+2025-02-12 00:01:03 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-12 00:01:03 - Finished Spring Data repository scanning in 72 ms. Found 4 JPA repository interfaces.
+2025-02-12 00:01:04 - Tomcat initialized with port 8080 (http)
+2025-02-12 00:01:04 - Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-12 00:01:04 - Starting service [Tomcat]
+2025-02-12 00:01:04 - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2025-02-12 00:01:04 - Initializing Spring embedded WebApplicationContext
+2025-02-12 00:01:04 - Root WebApplicationContext: initialization completed in 613 ms
+2025-02-12 00:01:04 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-12 00:01:04 - HHH000412: Hibernate ORM core version 6.4.1.Final
+2025-02-12 00:01:04 - HHH000026: Second-level cache disabled
+2025-02-12 00:01:04 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-12 00:01:04 - HikariPool-1 - Starting...
+2025-02-12 00:01:04 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@51b51641
+2025-02-12 00:01:04 - HikariPool-1 - Start completed.
+2025-02-12 00:01:04 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-12 00:01:04 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-12 00:01:04 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12 00:01:05 - FileUploadController loaded successfully.
+2025-02-12 00:01:05 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-12 00:01:05 - Starting ProtocolHandler ["http-nio-8080"]
+2025-02-12 00:01:05 - Tomcat started on port 8080 (http) with context path ''
+2025-02-12 00:01:05 - Started FileStorageServiceApplication in 2.112 seconds (process running for 2.257)
+2025-02-12 00:01:16 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-12 00:01:16 - Initializing Servlet 'dispatcherServlet'
+2025-02-12 00:01:16 - Completed initialization in 3 ms
+2025-02-12 00:01:17 - Init duration for springdoc-openapi is: 173 ms
+2025-02-12 00:02:12 - Received request: fileGuid=9d411a62-1b54-49c2-b06e-1af20681ef17, targetDirectoryGuid=57e606c7-37ff-4abe-914c-3057def02ae4
+2025-02-12 00:02:12 - Copy operation started. fileGuid: 9d411a62-1b54-49c2-b06e-1af20681ef17, targetDirectoryGuid: 57e606c7-37ff-4abe-914c-3057def02ae4
+2025-02-12 00:02:12 - Target directory found: /Users/edakocaman/Downloads/FileStorageService/upload-dir/test17
+2025-02-12 00:02:12 - Error: Source is not a valid file: /Users/edakocaman/Downloads/FileStorageService/upload-dir/test12/test13/test14
+2025-02-12 00:03:06 - Received request: fileGuid=d0947e79-d018-471c-8b53-551e1b391f64, targetDirectoryGuid=57e606c7-37ff-4abe-914c-3057def02ae4
+2025-02-12 00:03:06 - Copy operation started. fileGuid: d0947e79-d018-471c-8b53-551e1b391f64, targetDirectoryGuid: 57e606c7-37ff-4abe-914c-3057def02ae4
+2025-02-12 00:03:06 - Target directory found: /Users/edakocaman/Downloads/FileStorageService/upload-dir/test17
+2025-02-12 00:03:06 - Error: Source is not a valid file: /Users/edakocaman/Downloads/FileStorageService/upload-dir/test8
+2025-02-12 00:19:06 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12 00:19:06 - HikariPool-1 - Shutdown initiated...
+2025-02-12 00:19:06 - HikariPool-1 - Shutdown completed.
+2025-02-12 00:19:09 - HV000001: Hibernate Validator 8.0.1.Final
+2025-02-12 00:19:09 - Starting FileStorageServiceApplication using Java 17.0.13 with PID 28332 (/Users/edakocaman/Downloads/FileStorageService/build/classes/java/main started by edakocaman in /Users/edakocaman/Downloads/FileStorageService)
+2025-02-12 00:19:09 - Running with Spring Boot v3.2.2, Spring v6.1.3
+2025-02-12 00:19:09 - No active profile set, falling back to 1 default profile: "default"
+2025-02-12 00:19:09 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-12 00:19:09 - Finished Spring Data repository scanning in 69 ms. Found 4 JPA repository interfaces.
+2025-02-12 00:19:10 - Tomcat initialized with port 8080 (http)
+2025-02-12 00:19:10 - Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-12 00:19:10 - Starting service [Tomcat]
+2025-02-12 00:19:10 - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2025-02-12 00:19:10 - Initializing Spring embedded WebApplicationContext
+2025-02-12 00:19:10 - Root WebApplicationContext: initialization completed in 604 ms
+2025-02-12 00:19:10 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-12 00:19:10 - HHH000412: Hibernate ORM core version 6.4.1.Final
+2025-02-12 00:19:10 - HHH000026: Second-level cache disabled
+2025-02-12 00:19:10 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-12 00:19:10 - HikariPool-1 - Starting...
+2025-02-12 00:19:10 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@51b51641
+2025-02-12 00:19:10 - HikariPool-1 - Start completed.
+2025-02-12 00:19:10 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-12 00:19:10 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-12 00:19:11 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12 00:19:11 - FileUploadController loaded successfully.
+2025-02-12 00:19:11 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-12 00:19:11 - Starting ProtocolHandler ["http-nio-8080"]
+2025-02-12 00:19:11 - Tomcat started on port 8080 (http) with context path ''
+2025-02-12 00:19:11 - Started FileStorageServiceApplication in 2.447 seconds (process running for 2.59)
+2025-02-12 00:19:18 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-12 00:19:18 - Initializing Servlet 'dispatcherServlet'
+2025-02-12 00:19:18 - Completed initialization in 2 ms
+2025-02-12 00:19:18 - Init duration for springdoc-openapi is: 153 ms
+2025-02-12 00:19:49 - Received request: fileGuid=d0947e79-d018-471c-8b53-551e1b391f64, targetDirectoryGuid=57e606c7-37ff-4abe-914c-3057def02ae4
+2025-02-12 00:19:49 - Copy operation started. fileGuid: d0947e79-d018-471c-8b53-551e1b391f64, targetDirectoryGuid: 57e606c7-37ff-4abe-914c-3057def02ae4
+2025-02-12 00:19:49 - Target directory found: /Users/edakocaman/Downloads/FileStorageService/upload-dir/test17
+2025-02-12 00:19:49 - Source is not a valid file: /Users/edakocaman/Downloads/FileStorageService/upload-dir/test8
+2025-02-12 00:19:49 - Error: Source is not a valid file: /Users/edakocaman/Downloads/FileStorageService/upload-dir/test8
+2025-02-12 00:20:20 - Received request: fileGuid=a2ef38a4-91aa-4217-aa4c-66d74ddf5c6e, targetDirectoryGuid=57e606c7-37ff-4abe-914c-3057def02ae4
+2025-02-12 00:20:20 - Copy operation started. fileGuid: a2ef38a4-91aa-4217-aa4c-66d74ddf5c6e, targetDirectoryGuid: 57e606c7-37ff-4abe-914c-3057def02ae4
+2025-02-12 00:20:20 - Target directory found: /Users/edakocaman/Downloads/FileStorageService/upload-dir/test17
+2025-02-12 00:20:20 - Source is not a valid file: /Users/edakocaman/Downloads/FileStorageService/upload-dir/test9
+2025-02-12 00:20:20 - Error: Source is not a valid file: /Users/edakocaman/Downloads/FileStorageService/upload-dir/test9
+2025-02-12 00:35:47 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12 00:35:47 - HikariPool-1 - Shutdown initiated...
+2025-02-12 00:35:47 - HikariPool-1 - Shutdown completed.
+2025-02-12 00:35:52 - HV000001: Hibernate Validator 8.0.1.Final
+2025-02-12 00:35:52 - Starting FileStorageServiceApplication using Java 17.0.13 with PID 28961 (/Users/edakocaman/Downloads/FileStorageService/build/classes/java/main started by edakocaman in /Users/edakocaman/Downloads/FileStorageService)
+2025-02-12 00:35:52 - Running with Spring Boot v3.2.2, Spring v6.1.3
+2025-02-12 00:35:52 - No active profile set, falling back to 1 default profile: "default"
+2025-02-12 00:35:52 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-12 00:35:52 - Finished Spring Data repository scanning in 67 ms. Found 4 JPA repository interfaces.
+2025-02-12 00:35:52 - Tomcat initialized with port 8080 (http)
+2025-02-12 00:35:52 - Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-12 00:35:52 - Starting service [Tomcat]
+2025-02-12 00:35:52 - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2025-02-12 00:35:52 - Initializing Spring embedded WebApplicationContext
+2025-02-12 00:35:52 - Root WebApplicationContext: initialization completed in 608 ms
+2025-02-12 00:35:52 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-12 00:35:52 - HHH000412: Hibernate ORM core version 6.4.1.Final
+2025-02-12 00:35:52 - HHH000026: Second-level cache disabled
+2025-02-12 00:35:52 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-12 00:35:52 - HikariPool-1 - Starting...
+2025-02-12 00:35:53 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@100eeedc
+2025-02-12 00:35:53 - HikariPool-1 - Start completed.
+2025-02-12 00:35:53 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-12 00:35:53 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-12 00:35:53 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12 00:35:54 - FileUploadController loaded successfully.
+2025-02-12 00:35:54 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-12 00:35:54 - Starting ProtocolHandler ["http-nio-8080"]
+2025-02-12 00:35:54 - Tomcat started on port 8080 (http) with context path ''
+2025-02-12 00:35:54 - Started FileStorageServiceApplication in 2.376 seconds (process running for 2.527)
+2025-02-12 00:36:04 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-12 00:36:04 - Initializing Servlet 'dispatcherServlet'
+2025-02-12 00:36:04 - Completed initialization in 4 ms
+2025-02-12 00:36:05 - Init duration for springdoc-openapi is: 143 ms
+2025-02-12 00:36:13 - Received request: fileGuid=a2ef38a4-91aa-4217-aa4c-66d74ddf5c6e, targetDirectoryGuid=57e606c7-37ff-4abe-914c-3057def02ae4
+2025-02-12 00:36:13 - Copy operation started. fileGuid: a2ef38a4-91aa-4217-aa4c-66d74ddf5c6e, targetDirectoryGuid: 57e606c7-37ff-4abe-914c-3057def02ae4
+2025-02-12 00:36:13 - Target directory found: /Users/edakocaman/Downloads/FileStorageService/upload-dir/test17
+2025-02-12 00:36:13 - Directory copied successfully from /Users/edakocaman/Downloads/FileStorageService/upload-dir/test9 to /Users/edakocaman/Downloads/FileStorageService/upload-dir/test17/test23.rtf
+2025-02-12 00:36:13 - New file record created: bfb129c1-1186-4104-b9f1-783d46482b76
+2025-02-12 00:36:13 - File copied successfully!
+2025-02-12 00:38:36 - Received request: fileGuid=a2ef38a4-91aa-4217-aa4c-66d74ddf5c6e, targetDirectoryGuid=bf89a0c5-558c-49ec-b9a1-256a2f1ffd68
+2025-02-12 00:38:36 - Copy operation started. fileGuid: a2ef38a4-91aa-4217-aa4c-66d74ddf5c6e, targetDirectoryGuid: bf89a0c5-558c-49ec-b9a1-256a2f1ffd68
+2025-02-12 00:38:36 - Target directory found: /Users/edakocaman/Downloads/FileStorageService/upload-dir/test7
+2025-02-12 00:38:36 - Directory copied successfully from /Users/edakocaman/Downloads/FileStorageService/upload-dir/test9 to /Users/edakocaman/Downloads/FileStorageService/upload-dir/test7/test23.rtf
+2025-02-12 00:38:36 - New file record created: c4208e14-07ca-4c8e-88a5-c97809ec40f7
+2025-02-12 00:38:36 - File copied successfully!
+2025-02-12 00:42:25 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12 00:42:25 - HikariPool-1 - Shutdown initiated...
+2025-02-12 00:42:25 - HikariPool-1 - Shutdown completed.
+2025-02-12 09:08:45 - HV000001: Hibernate Validator 8.0.1.Final
+2025-02-12 09:08:45 - Starting FileStorageServiceApplication using Java 17.0.13 with PID 31033 (/Users/edakocaman/Downloads/FileStorageService/build/classes/java/main started by edakocaman in /Users/edakocaman/Downloads/FileStorageService)
+2025-02-12 09:08:45 - Running with Spring Boot v3.2.2, Spring v6.1.3
+2025-02-12 09:08:45 - No active profile set, falling back to 1 default profile: "default"
+2025-02-12 09:08:45 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-12 09:08:46 - Finished Spring Data repository scanning in 68 ms. Found 4 JPA repository interfaces.
+2025-02-12 09:08:46 - Tomcat initialized with port 8080 (http)
+2025-02-12 09:08:46 - Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-12 09:08:46 - Starting service [Tomcat]
+2025-02-12 09:08:46 - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2025-02-12 09:08:46 - Initializing Spring embedded WebApplicationContext
+2025-02-12 09:08:46 - Root WebApplicationContext: initialization completed in 609 ms
+2025-02-12 09:08:46 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-12 09:08:46 - HHH000412: Hibernate ORM core version 6.4.1.Final
+2025-02-12 09:08:46 - HHH000026: Second-level cache disabled
+2025-02-12 09:08:46 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-12 09:08:46 - HikariPool-1 - Starting...
+2025-02-12 09:08:46 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@362a6aa5
+2025-02-12 09:08:46 - HikariPool-1 - Start completed.
+2025-02-12 09:08:46 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-12 09:08:47 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-12 09:08:47 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12 09:08:48 - FileUploadController loaded successfully.
+2025-02-12 09:08:48 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-12 09:08:48 - Starting ProtocolHandler ["http-nio-8080"]
+2025-02-12 09:08:48 - Tomcat started on port 8080 (http) with context path ''
+2025-02-12 09:08:48 - Started FileStorageServiceApplication in 3.097 seconds (process running for 3.243)
+2025-02-12 09:09:18 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-12 09:09:18 - Initializing Servlet 'dispatcherServlet'
+2025-02-12 09:09:18 - Completed initialization in 6 ms
+2025-02-12 09:09:18 - Init duration for springdoc-openapi is: 143 ms
+2025-02-12 09:09:22 - Deleting file with ID: 15
+2025-02-12 09:11:15 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12 09:11:15 - HikariPool-1 - Shutdown initiated...
+2025-02-12 09:11:15 - HikariPool-1 - Shutdown completed.
+2025-02-12 09:11:18 - HV000001: Hibernate Validator 8.0.1.Final
+2025-02-12 09:11:18 - Starting FileStorageServiceApplication using Java 17.0.13 with PID 31144 (/Users/edakocaman/Downloads/FileStorageService/build/classes/java/main started by edakocaman in /Users/edakocaman/Downloads/FileStorageService)
+2025-02-12 09:11:18 - Running with Spring Boot v3.2.2, Spring v6.1.3
+2025-02-12 09:11:18 - No active profile set, falling back to 1 default profile: "default"
+2025-02-12 09:11:19 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-12 09:11:19 - Finished Spring Data repository scanning in 68 ms. Found 4 JPA repository interfaces.
+2025-02-12 09:11:19 - Tomcat initialized with port 8080 (http)
+2025-02-12 09:11:19 - Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-12 09:11:19 - Starting service [Tomcat]
+2025-02-12 09:11:19 - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2025-02-12 09:11:19 - Initializing Spring embedded WebApplicationContext
+2025-02-12 09:11:19 - Root WebApplicationContext: initialization completed in 606 ms
+2025-02-12 09:11:19 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-12 09:11:19 - HHH000412: Hibernate ORM core version 6.4.1.Final
+2025-02-12 09:11:19 - HHH000026: Second-level cache disabled
+2025-02-12 09:11:19 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-12 09:11:19 - HikariPool-1 - Starting...
+2025-02-12 09:11:19 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@56266bda
+2025-02-12 09:11:19 - HikariPool-1 - Start completed.
+2025-02-12 09:11:19 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-12 09:11:20 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-12 09:11:20 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12 09:11:20 - FileUploadController loaded successfully.
+2025-02-12 09:11:20 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-12 09:11:20 - Starting ProtocolHandler ["http-nio-8080"]
+2025-02-12 09:11:20 - Tomcat started on port 8080 (http) with context path ''
+2025-02-12 09:11:20 - Started FileStorageServiceApplication in 2.049 seconds (process running for 2.193)
+2025-02-12 09:11:23 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-12 09:11:23 - Initializing Servlet 'dispatcherServlet'
+2025-02-12 09:11:23 - Completed initialization in 4 ms
+2025-02-12 09:11:23 - Init duration for springdoc-openapi is: 152 ms
+2025-02-12 09:11:44 - Deleting file with ID: 16
+2025-02-12 09:12:21 - getAllFiles
+2025-02-12 09:12:49 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12 09:12:49 - HikariPool-1 - Shutdown initiated...
+2025-02-12 09:12:49 - HikariPool-1 - Shutdown completed.
+2025-02-12 09:13:29 - HV000001: Hibernate Validator 8.0.1.Final
+2025-02-12 09:13:29 - Starting FileStorageServiceApplication using Java 17.0.13 with PID 31315 (/Users/edakocaman/Downloads/FileStorageService/build/classes/java/main started by edakocaman in /Users/edakocaman/Downloads/FileStorageService)
+2025-02-12 09:13:29 - Running with Spring Boot v3.2.2, Spring v6.1.3
+2025-02-12 09:13:29 - No active profile set, falling back to 1 default profile: "default"
+2025-02-12 09:13:29 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-12 09:13:29 - Finished Spring Data repository scanning in 75 ms. Found 4 JPA repository interfaces.
+2025-02-12 09:13:30 - Tomcat initialized with port 8080 (http)
+2025-02-12 09:13:30 - Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-12 09:13:30 - Starting service [Tomcat]
+2025-02-12 09:13:30 - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2025-02-12 09:13:30 - Initializing Spring embedded WebApplicationContext
+2025-02-12 09:13:30 - Root WebApplicationContext: initialization completed in 652 ms
+2025-02-12 09:13:30 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-12 09:13:30 - HHH000412: Hibernate ORM core version 6.4.1.Final
+2025-02-12 09:13:30 - HHH000026: Second-level cache disabled
+2025-02-12 09:13:30 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-12 09:13:30 - HikariPool-1 - Starting...
+2025-02-12 09:13:30 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@9f1ca74
+2025-02-12 09:13:30 - HikariPool-1 - Start completed.
+2025-02-12 09:13:30 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-12 09:13:30 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-12 09:13:31 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12 09:13:31 - FileUploadController loaded successfully.
+2025-02-12 09:13:31 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-12 09:13:31 - Starting ProtocolHandler ["http-nio-8080"]
+2025-02-12 09:13:31 - Tomcat started on port 8080 (http) with context path ''
+2025-02-12 09:13:31 - Started FileStorageServiceApplication in 2.217 seconds (process running for 2.374)
+2025-02-12 09:13:36 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-12 09:13:36 - Initializing Servlet 'dispatcherServlet'
+2025-02-12 09:13:36 - Completed initialization in 5 ms
+2025-02-12 09:13:36 - Init duration for springdoc-openapi is: 130 ms
+2025-02-12 09:14:30 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12 09:14:30 - HikariPool-1 - Shutdown initiated...
+2025-02-12 09:14:30 - HikariPool-1 - Shutdown completed.
+2025-02-12 09:15:45 - HV000001: Hibernate Validator 8.0.1.Final
+2025-02-12 09:15:45 - Starting FileStorageServiceApplication using Java 17.0.13 with PID 31456 (/Users/edakocaman/Downloads/FileStorageService/build/classes/java/main started by edakocaman in /Users/edakocaman/Downloads/FileStorageService)
+2025-02-12 09:15:45 - Running with Spring Boot v3.2.2, Spring v6.1.3
+2025-02-12 09:15:45 - No active profile set, falling back to 1 default profile: "default"
+2025-02-12 09:15:46 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-12 09:15:46 - Finished Spring Data repository scanning in 72 ms. Found 4 JPA repository interfaces.
+2025-02-12 09:15:46 - Tomcat initialized with port 8080 (http)
+2025-02-12 09:15:46 - Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-12 09:15:46 - Starting service [Tomcat]
+2025-02-12 09:15:46 - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2025-02-12 09:15:46 - Initializing Spring embedded WebApplicationContext
+2025-02-12 09:15:46 - Root WebApplicationContext: initialization completed in 610 ms
+2025-02-12 09:15:46 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-12 09:15:46 - HHH000412: Hibernate ORM core version 6.4.1.Final
+2025-02-12 09:15:46 - HHH000026: Second-level cache disabled
+2025-02-12 09:15:46 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-12 09:15:46 - HikariPool-1 - Starting...
+2025-02-12 09:15:46 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@18dac12f
+2025-02-12 09:15:46 - HikariPool-1 - Start completed.
+2025-02-12 09:15:46 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-12 09:15:47 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-12 09:15:47 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12 09:15:47 - FileUploadController loaded successfully.
+2025-02-12 09:15:47 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-12 09:15:47 - Starting ProtocolHandler ["http-nio-8080"]
+2025-02-12 09:15:47 - Tomcat started on port 8080 (http) with context path ''
+2025-02-12 09:15:47 - Started FileStorageServiceApplication in 2.105 seconds (process running for 2.253)
+2025-02-12 09:15:53 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-12 09:15:53 - Initializing Servlet 'dispatcherServlet'
+2025-02-12 09:15:53 - Completed initialization in 9 ms
+2025-02-12 09:15:54 - Init duration for springdoc-openapi is: 128 ms
+2025-02-12 09:21:49 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12 09:21:49 - HikariPool-1 - Shutdown initiated...
+2025-02-12 09:21:49 - HikariPool-1 - Shutdown completed.
+2025-02-12 10:23:09 - HV000001: Hibernate Validator 8.0.1.Final
+2025-02-12 10:23:09 - Starting FileStorageServiceApplication using Java 17.0.13 with PID 34536 (/Users/edakocaman/Downloads/FileStorageService/build/classes/java/main started by edakocaman in /Users/edakocaman/Downloads/FileStorageService)
+2025-02-12 10:23:09 - Running with Spring Boot v3.2.2, Spring v6.1.3
+2025-02-12 10:23:09 - No active profile set, falling back to 1 default profile: "default"
+2025-02-12 10:23:09 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-12 10:23:09 - Finished Spring Data repository scanning in 68 ms. Found 4 JPA repository interfaces.
+2025-02-12 10:23:09 - Tomcat initialized with port 8080 (http)
+2025-02-12 10:23:09 - Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-12 10:23:09 - Starting service [Tomcat]
+2025-02-12 10:23:09 - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2025-02-12 10:23:09 - Initializing Spring embedded WebApplicationContext
+2025-02-12 10:23:09 - Root WebApplicationContext: initialization completed in 588 ms
+2025-02-12 10:23:09 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-12 10:23:09 - HHH000412: Hibernate ORM core version 6.4.1.Final
+2025-02-12 10:23:09 - HHH000026: Second-level cache disabled
+2025-02-12 10:23:10 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-12 10:23:10 - HikariPool-1 - Starting...
+2025-02-12 10:23:10 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@365e65bb
+2025-02-12 10:23:10 - HikariPool-1 - Start completed.
+2025-02-12 10:23:10 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-12 10:23:10 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-12 10:23:10 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12 10:23:10 - FileUploadController loaded successfully.
+2025-02-12 10:23:10 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-12 10:23:11 - Starting ProtocolHandler ["http-nio-8080"]
+2025-02-12 10:23:11 - Tomcat started on port 8080 (http) with context path ''
+2025-02-12 10:23:11 - Started FileStorageServiceApplication in 2.031 seconds (process running for 2.185)
+2025-02-12 10:23:14 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-12 10:23:14 - Initializing Servlet 'dispatcherServlet'
+2025-02-12 10:23:14 - Completed initialization in 3 ms
+2025-02-12 10:23:15 - Init duration for springdoc-openapi is: 127 ms
+2025-02-12 10:24:14 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12 10:24:14 - HikariPool-1 - Shutdown initiated...
+2025-02-12 10:24:14 - HikariPool-1 - Shutdown completed.
+2025-02-12 10:26:24 - HV000001: Hibernate Validator 8.0.1.Final
+2025-02-12 10:26:24 - Starting FileStorageServiceApplication using Java 17.0.13 with PID 34662 (/Users/edakocaman/Downloads/FileStorageService/build/classes/java/main started by edakocaman in /Users/edakocaman/Downloads/FileStorageService)
+2025-02-12 10:26:24 - Running with Spring Boot v3.2.2, Spring v6.1.3
+2025-02-12 10:26:24 - No active profile set, falling back to 1 default profile: "default"
+2025-02-12 10:26:24 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-12 10:26:24 - Finished Spring Data repository scanning in 71 ms. Found 4 JPA repository interfaces.
+2025-02-12 10:26:24 - Tomcat initialized with port 8080 (http)
+2025-02-12 10:26:24 - Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-12 10:26:24 - Starting service [Tomcat]
+2025-02-12 10:26:24 - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2025-02-12 10:26:24 - Initializing Spring embedded WebApplicationContext
+2025-02-12 10:26:24 - Root WebApplicationContext: initialization completed in 590 ms
+2025-02-12 10:26:24 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-12 10:26:24 - HHH000412: Hibernate ORM core version 6.4.1.Final
+2025-02-12 10:26:24 - HHH000026: Second-level cache disabled
+2025-02-12 10:26:24 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-12 10:26:24 - HikariPool-1 - Starting...
+2025-02-12 10:26:24 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@761f234c
+2025-02-12 10:26:24 - HikariPool-1 - Start completed.
+2025-02-12 10:26:24 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-12 10:26:25 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-12 10:26:25 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12 10:26:25 - FileUploadController loaded successfully.
+2025-02-12 10:26:25 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-12 10:26:25 - Starting ProtocolHandler ["http-nio-8080"]
+2025-02-12 10:26:25 - Tomcat started on port 8080 (http) with context path ''
+2025-02-12 10:26:25 - Started FileStorageServiceApplication in 2.086 seconds (process running for 2.228)
+2025-02-12 10:26:28 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-12 10:26:28 - Initializing Servlet 'dispatcherServlet'
+2025-02-12 10:26:28 - Completed initialization in 2 ms
+2025-02-12 10:26:28 - Init duration for springdoc-openapi is: 126 ms
+2025-02-12 10:29:18 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12 10:29:18 - HikariPool-1 - Shutdown initiated...
+2025-02-12 10:29:18 - HikariPool-1 - Shutdown completed.
+2025-02-12 10:29:22 - HV000001: Hibernate Validator 8.0.1.Final
+2025-02-12 10:29:22 - Starting FileStorageServiceApplication using Java 17.0.13 with PID 34851 (/Users/edakocaman/Downloads/FileStorageService/build/classes/java/main started by edakocaman in /Users/edakocaman/Downloads/FileStorageService)
+2025-02-12 10:29:22 - Running with Spring Boot v3.2.2, Spring v6.1.3
+2025-02-12 10:29:22 - No active profile set, falling back to 1 default profile: "default"
+2025-02-12 10:29:23 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-12 10:29:23 - Finished Spring Data repository scanning in 71 ms. Found 4 JPA repository interfaces.
+2025-02-12 10:29:23 - Tomcat initialized with port 8080 (http)
+2025-02-12 10:29:23 - Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-12 10:29:23 - Starting service [Tomcat]
+2025-02-12 10:29:23 - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2025-02-12 10:29:23 - Initializing Spring embedded WebApplicationContext
+2025-02-12 10:29:23 - Root WebApplicationContext: initialization completed in 612 ms
+2025-02-12 10:29:23 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-12 10:29:23 - HHH000412: Hibernate ORM core version 6.4.1.Final
+2025-02-12 10:29:23 - HHH000026: Second-level cache disabled
+2025-02-12 10:29:23 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-12 10:29:23 - HikariPool-1 - Starting...
+2025-02-12 10:29:23 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@9f1ca74
+2025-02-12 10:29:23 - HikariPool-1 - Start completed.
+2025-02-12 10:29:23 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-12 10:29:24 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-12 10:29:24 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12 10:29:24 - FileUploadController loaded successfully.
+2025-02-12 10:29:24 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-12 10:29:24 - Starting ProtocolHandler ["http-nio-8080"]
+2025-02-12 10:29:24 - Tomcat started on port 8080 (http) with context path ''
+2025-02-12 10:29:24 - Started FileStorageServiceApplication in 2.092 seconds (process running for 2.239)
+2025-02-12 10:29:34 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-12 10:29:34 - Initializing Servlet 'dispatcherServlet'
+2025-02-12 10:29:34 - Completed initialization in 4 ms
+2025-02-12 10:29:34 - Init duration for springdoc-openapi is: 155 ms
+2025-02-12 10:35:25 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12 10:35:25 - HikariPool-1 - Shutdown initiated...
+2025-02-12 10:35:25 - HikariPool-1 - Shutdown completed.
+2025-02-12 10:35:28 - HV000001: Hibernate Validator 8.0.1.Final
+2025-02-12 10:35:28 - Starting FileStorageServiceApplication using Java 17.0.13 with PID 35066 (/Users/edakocaman/Downloads/FileStorageService/build/classes/java/main started by edakocaman in /Users/edakocaman/Downloads/FileStorageService)
+2025-02-12 10:35:28 - Running with Spring Boot v3.2.2, Spring v6.1.3
+2025-02-12 10:35:28 - No active profile set, falling back to 1 default profile: "default"
+2025-02-12 10:35:28 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-12 10:35:28 - Finished Spring Data repository scanning in 70 ms. Found 4 JPA repository interfaces.
+2025-02-12 10:35:29 - Tomcat initialized with port 8080 (http)
+2025-02-12 10:35:29 - Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-12 10:35:29 - Starting service [Tomcat]
+2025-02-12 10:35:29 - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2025-02-12 10:35:29 - Initializing Spring embedded WebApplicationContext
+2025-02-12 10:35:29 - Root WebApplicationContext: initialization completed in 623 ms
+2025-02-12 10:35:29 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-12 10:35:29 - HHH000412: Hibernate ORM core version 6.4.1.Final
+2025-02-12 10:35:29 - HHH000026: Second-level cache disabled
+2025-02-12 10:35:29 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-12 10:35:29 - HikariPool-1 - Starting...
+2025-02-12 10:35:29 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6a6e9289
+2025-02-12 10:35:29 - HikariPool-1 - Start completed.
+2025-02-12 10:35:29 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-12 10:35:30 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-12 10:35:30 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12 10:35:30 - FileUploadController loaded successfully.
+2025-02-12 10:35:30 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-12 10:35:30 - Starting ProtocolHandler ["http-nio-8080"]
+2025-02-12 10:35:30 - Tomcat started on port 8080 (http) with context path ''
+2025-02-12 10:35:30 - Started FileStorageServiceApplication in 2.491 seconds (process running for 2.633)
+2025-02-12 10:35:33 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-12 10:35:33 - Initializing Servlet 'dispatcherServlet'
+2025-02-12 10:35:33 - Completed initialization in 2 ms
+2025-02-12 10:35:33 - Init duration for springdoc-openapi is: 129 ms
+2025-02-12 10:36:29 - Target directory found: /Users/edakocaman/Downloads/FileStorageService/upload-dir/test8
+2025-02-12 10:36:29 - SourcePath: /Users/edakocaman/Downloads/FileStorageService/upload-dir/test9
+2025-02-12 10:36:29 - TargetPath: /Users/edakocaman/Downloads/FileStorageService/upload-dir/test8/test9_copy
+2025-02-12 10:36:29 - Directory copied successfully: /Users/edakocaman/Downloads/FileStorageService/upload-dir/test9 -> /Users/edakocaman/Downloads/FileStorageService/upload-dir/test8/test9_copy
+2025-02-12 10:36:29 - New directory record created: 4b28020d-10b1-41d8-8cc1-63be49deaa57
+2025-02-12 10:36:29 - SQL Error: 0, SQLState: 23502
+2025-02-12 10:36:29 - ERROR: null value in column "uploaded_at" of relation "files" violates not-null constraint
+  Detail: Failing row contains (70, test23.rtf, null, null, null, 60, null, 6b9049f1-6f36-4b72-a7bd-afc155f63e06).
+2025-02-12 10:36:29 - SQL Error: 0, SQLState: 22001
+2025-02-12 10:36:29 - ERROR: value too long for type character varying(255)
+2025-02-12 10:36:29 - Failure in @ExceptionHandler com.example.FileStorageService.exception.GlobalExceptionHandler#handleException(Exception)
+org.springframework.dao.DataIntegrityViolationException: could not execute statement [ERROR: value too long for type character varying(255)] [insert into audit_logs (action,entity_id,entity_name,entity_type,message,new_value,old_value,performed_at,performed_by,timestamp) values (?,?,?,?,?,?,?,?,?,?)]; SQL [insert into audit_logs (action,entity_id,entity_name,entity_type,message,new_value,old_value,performed_at,performed_by,timestamp) values (?,?,?,?,?,?,?,?,?,?)]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:293)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:241)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:550)
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:335)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:152)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:164)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:220)
+	at jdk.proxy2/jdk.proxy2.$Proxy131.save(Unknown Source)
+	at com.example.FileStorageService.service.AuditLogService.saveAuditLog(AuditLogService.java:47)
+	at com.example.FileStorageService.exception.GlobalExceptionHandler.handleException(GlobalExceptionHandler.java:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:261)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:189)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:432)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:74)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:175)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1357)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1160)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: org.hibernate.exception.DataException: could not execute statement [ERROR: value too long for type character varying(255)] [insert into audit_logs (action,entity_id,entity_name,entity_type,message,new_value,old_value,performed_at,performed_by,timestamp) values (?,?,?,?,?,?,?,?,?,?)]
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:103)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197)
+	at org.hibernate.id.insert.GetGeneratedKeysDelegate.performInsert(GetGeneratedKeysDelegate.java:107)
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorPostInsertSingleTable.execute(MutationExecutorPostInsertSingleTable.java:100)
+	at org.hibernate.persister.entity.mutation.InsertCoordinator.doStaticInserts(InsertCoordinator.java:175)
+	at org.hibernate.persister.entity.mutation.InsertCoordinator.coordinateInsert(InsertCoordinator.java:113)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:2868)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:81)
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:670)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:291)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:272)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:322)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:386)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:300)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:219)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:134)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:175)
+	at org.hibernate.event.internal.DefaultPersistEventListener.persist(DefaultPersistEventListener.java:93)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:77)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:54)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:774)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:758)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:364)
+	at jdk.proxy2/jdk.proxy2.$Proxy128.persist(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:319)
+	at jdk.proxy2/jdk.proxy2.$Proxy128.persist(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:618)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:351)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:277)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:516)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:628)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:168)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:143)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:385)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	... 62 common frames omitted
+Caused by: org.postgresql.util.PSQLException: ERROR: value too long for type character varying(255)
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:194)
+	... 118 common frames omitted
+2025-02-12 10:36:29 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.DataIntegrityViolationException: could not execute statement [ERROR: null value in column "uploaded_at" of relation "files" violates not-null constraint
+  Detail: Failing row contains (70, test23.rtf, null, null, null, 60, null, 6b9049f1-6f36-4b72-a7bd-afc155f63e06).] [insert into files (content_type,directory_id,guid,name,size,uploaded_at,uploaded_by) values (?,?,?,?,?,?,?)]; SQL [insert into files (content_type,directory_id,guid,name,size,uploaded_at,uploaded_by) values (?,?,?,?,?,?,?)]; constraint [uploaded_at" of relation "files]] with root cause
+org.postgresql.util.PSQLException: ERROR: null value in column "uploaded_at" of relation "files" violates not-null constraint
+  Detail: Failing row contains (70, test23.rtf, null, null, null, 60, null, 6b9049f1-6f36-4b72-a7bd-afc155f63e06).
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2713)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2401)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:368)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:498)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:415)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:190)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:152)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:194)
+	at org.hibernate.id.insert.GetGeneratedKeysDelegate.performInsert(GetGeneratedKeysDelegate.java:107)
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorPostInsertSingleTable.execute(MutationExecutorPostInsertSingleTable.java:100)
+	at org.hibernate.persister.entity.mutation.InsertCoordinator.doStaticInserts(InsertCoordinator.java:175)
+	at org.hibernate.persister.entity.mutation.InsertCoordinator.coordinateInsert(InsertCoordinator.java:113)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:2868)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:81)
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:670)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:291)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:272)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:322)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:386)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:300)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:219)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:134)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:175)
+	at org.hibernate.event.internal.DefaultPersistEventListener.persist(DefaultPersistEventListener.java:93)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:77)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:54)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:774)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:758)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:364)
+	at jdk.proxy2/jdk.proxy2.$Proxy128.persist(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:319)
+	at jdk.proxy2/jdk.proxy2.$Proxy128.persist(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:618)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:351)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:277)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:516)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:628)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:168)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:143)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:385)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:164)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:220)
+	at jdk.proxy2/jdk.proxy2.$Proxy139.save(Unknown Source)
+	at com.example.FileStorageService.service.DirectoryCopyService.saveFiles(DirectoryCopyService.java:120)
+	at com.example.FileStorageService.service.DirectoryCopyService.copyDirectory(DirectoryCopyService.java:82)
+	at com.example.FileStorageService.controller.DirectoryCopyController.copyDirectory(DirectoryCopyController.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:261)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:189)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:917)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:829)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-02-12 10:41:00 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12 10:41:00 - HikariPool-1 - Shutdown initiated...
+2025-02-12 10:41:00 - HikariPool-1 - Shutdown completed.
+2025-02-12 10:54:32 - HV000001: Hibernate Validator 8.0.1.Final
+2025-02-12 10:54:32 - Starting FileStorageServiceApplication using Java 17.0.13 with PID 35655 (/Users/edakocaman/Downloads/FileStorageService/build/classes/java/main started by edakocaman in /Users/edakocaman/Downloads/FileStorageService)
+2025-02-12 10:54:32 - Running with Spring Boot v3.2.2, Spring v6.1.3
+2025-02-12 10:54:32 - No active profile set, falling back to 1 default profile: "default"
+2025-02-12 10:54:33 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-12 10:54:33 - Finished Spring Data repository scanning in 76 ms. Found 4 JPA repository interfaces.
+2025-02-12 10:54:33 - Tomcat initialized with port 8080 (http)
+2025-02-12 10:54:33 - Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-12 10:54:33 - Starting service [Tomcat]
+2025-02-12 10:54:33 - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2025-02-12 10:54:33 - Initializing Spring embedded WebApplicationContext
+2025-02-12 10:54:33 - Root WebApplicationContext: initialization completed in 606 ms
+2025-02-12 10:54:33 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-12 10:54:33 - HHH000412: Hibernate ORM core version 6.4.1.Final
+2025-02-12 10:54:33 - HHH000026: Second-level cache disabled
+2025-02-12 10:54:33 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-12 10:54:33 - HikariPool-1 - Starting...
+2025-02-12 10:54:33 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@52f43225
+2025-02-12 10:54:33 - HikariPool-1 - Start completed.
+2025-02-12 10:54:33 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-12 10:54:34 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-12 10:54:34 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12 10:54:34 - FileUploadController loaded successfully.
+2025-02-12 10:54:34 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-12 10:54:34 - Starting ProtocolHandler ["http-nio-8080"]
+2025-02-12 10:54:34 - Tomcat started on port 8080 (http) with context path ''
+2025-02-12 10:54:34 - Started FileStorageServiceApplication in 2.091 seconds (process running for 2.232)
+2025-02-12 10:54:35 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12 10:54:35 - HikariPool-1 - Shutdown initiated...
+2025-02-12 10:54:35 - HikariPool-1 - Shutdown completed.
+2025-02-12 11:08:17 - HV000001: Hibernate Validator 8.0.1.Final
+2025-02-12 11:08:17 - Starting FileStorageServiceApplication using Java 17.0.13 with PID 36227 (/Users/edakocaman/Downloads/FileStorageService/build/classes/java/main started by edakocaman in /Users/edakocaman/Downloads/FileStorageService)
+2025-02-12 11:08:17 - Running with Spring Boot v3.2.2, Spring v6.1.3
+2025-02-12 11:08:17 - No active profile set, falling back to 1 default profile: "default"
+2025-02-12 11:08:17 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-12 11:08:17 - Finished Spring Data repository scanning in 68 ms. Found 4 JPA repository interfaces.
+2025-02-12 11:08:18 - Tomcat initialized with port 8080 (http)
+2025-02-12 11:08:18 - Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-12 11:08:18 - Starting service [Tomcat]
+2025-02-12 11:08:18 - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2025-02-12 11:08:18 - Initializing Spring embedded WebApplicationContext
+2025-02-12 11:08:18 - Root WebApplicationContext: initialization completed in 617 ms
+2025-02-12 11:08:18 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-12 11:08:18 - HHH000412: Hibernate ORM core version 6.4.1.Final
+2025-02-12 11:08:18 - HHH000026: Second-level cache disabled
+2025-02-12 11:08:18 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-12 11:08:18 - HikariPool-1 - Starting...
+2025-02-12 11:08:18 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@f9a5e3f
+2025-02-12 11:08:18 - HikariPool-1 - Start completed.
+2025-02-12 11:08:18 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-12 11:08:18 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-12 11:08:18 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12 11:08:19 - FileUploadController loaded successfully.
+2025-02-12 11:08:19 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-12 11:08:19 - Starting ProtocolHandler ["http-nio-8080"]
+2025-02-12 11:08:19 - Tomcat started on port 8080 (http) with context path ''
+2025-02-12 11:08:19 - Started FileStorageServiceApplication in 2.099 seconds (process running for 2.251)
+2025-02-12 11:08:42 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-12 11:08:42 - Initializing Servlet 'dispatcherServlet'
+2025-02-12 11:08:42 - Completed initialization in 3 ms
+2025-02-12 11:08:42 - Init duration for springdoc-openapi is: 148 ms
+2025-02-12 11:09:34 - Target directory found: /Users/edakocaman/Downloads/FileStorageService/upload-dir/test8/test9_copy
+2025-02-12 11:09:34 - SourcePath: /Users/edakocaman/Downloads/FileStorageService/upload-dir/test12/test13/test14
+2025-02-12 11:09:34 - TargetPath: /Users/edakocaman/Downloads/FileStorageService/upload-dir/test8/test9_copy/test14_copy
+2025-02-12 11:09:34 - Directory copied successfully: /Users/edakocaman/Downloads/FileStorageService/upload-dir/test12/test13/test14 -> /Users/edakocaman/Downloads/FileStorageService/upload-dir/test8/test9_copy/test14_copy
+2025-02-12 11:09:34 - New directory record created: 9cbacb3b-9c56-4b2e-9f95-a44a0f4358f9
+2025-02-12 11:12:02 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12 11:12:02 - HikariPool-1 - Shutdown initiated...
+2025-02-12 11:12:02 - HikariPool-1 - Shutdown completed.
+2025-02-12 11:16:21 - HV000001: Hibernate Validator 8.0.1.Final
+2025-02-12 11:16:21 - Starting FileStorageServiceApplication using Java 17.0.13 with PID 36483 (/Users/edakocaman/Downloads/FileStorageService/build/classes/java/main started by edakocaman in /Users/edakocaman/Downloads/FileStorageService)
+2025-02-12 11:16:21 - Running with Spring Boot v3.2.2, Spring v6.1.3
+2025-02-12 11:16:21 - No active profile set, falling back to 1 default profile: "default"
+2025-02-12 11:16:21 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-12 11:16:21 - Finished Spring Data repository scanning in 79 ms. Found 4 JPA repository interfaces.
+2025-02-12 11:16:22 - Tomcat initialized with port 8080 (http)
+2025-02-12 11:16:22 - Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-12 11:16:22 - Starting service [Tomcat]
+2025-02-12 11:16:22 - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2025-02-12 11:16:22 - Initializing Spring embedded WebApplicationContext
+2025-02-12 11:16:22 - Root WebApplicationContext: initialization completed in 630 ms
+2025-02-12 11:16:22 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-12 11:16:22 - HHH000412: Hibernate ORM core version 6.4.1.Final
+2025-02-12 11:16:22 - HHH000026: Second-level cache disabled
+2025-02-12 11:16:22 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-12 11:16:22 - HikariPool-1 - Starting...
+2025-02-12 11:16:22 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@61554b6b
+2025-02-12 11:16:22 - HikariPool-1 - Start completed.
+2025-02-12 11:16:22 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-12 11:16:22 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-12 11:16:22 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12 11:16:23 - FileUploadController loaded successfully.
+2025-02-12 11:16:23 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-12 11:16:23 - Starting ProtocolHandler ["http-nio-8080"]
+2025-02-12 11:16:23 - Tomcat started on port 8080 (http) with context path ''
+2025-02-12 11:16:23 - Started FileStorageServiceApplication in 2.119 seconds (process running for 2.266)
+2025-02-12 11:16:28 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-12 11:16:28 - Initializing Servlet 'dispatcherServlet'
+2025-02-12 11:16:28 - Completed initialization in 5 ms
+2025-02-12 11:16:29 - Init duration for springdoc-openapi is: 118 ms
+2025-02-12 11:17:24 - Target directory found: /Users/edakocaman/Downloads/FileStorageService/upload-dir/test12/test13
+2025-02-12 11:17:24 - SourcePath: /Users/edakocaman/Downloads/FileStorageService/upload-dir/test17
+2025-02-12 11:17:24 - TargetPath: /Users/edakocaman/Downloads/FileStorageService/upload-dir/test12/test13/test17_copy
+2025-02-12 11:17:24 - Directory copied successfully: /Users/edakocaman/Downloads/FileStorageService/upload-dir/test17 -> /Users/edakocaman/Downloads/FileStorageService/upload-dir/test12/test13/test17_copy
+2025-02-12 11:17:24 - New directory record created: 70df6b2c-a677-491d-91c2-d6077f5a738d
+2025-02-12 11:30:52 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12 11:30:52 - HikariPool-1 - Shutdown initiated...
+2025-02-12 11:30:52 - HikariPool-1 - Shutdown completed.
+2025-02-12 11:33:06 - HV000001: Hibernate Validator 8.0.1.Final
+2025-02-12 11:33:07 - Starting FileStorageServiceApplication using Java 17.0.13 with PID 37106 (/Users/edakocaman/Downloads/FileStorageService/build/classes/java/main started by edakocaman in /Users/edakocaman/Downloads/FileStorageService)
+2025-02-12 11:33:07 - Running with Spring Boot v3.2.2, Spring v6.1.3
+2025-02-12 11:33:07 - No active profile set, falling back to 1 default profile: "default"
+2025-02-12 11:33:07 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-12 11:33:07 - Finished Spring Data repository scanning in 65 ms. Found 4 JPA repository interfaces.
+2025-02-12 11:33:07 - Tomcat initialized with port 8080 (http)
+2025-02-12 11:33:07 - Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-12 11:33:07 - Starting service [Tomcat]
+2025-02-12 11:33:07 - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2025-02-12 11:33:07 - Initializing Spring embedded WebApplicationContext
+2025-02-12 11:33:07 - Root WebApplicationContext: initialization completed in 580 ms
+2025-02-12 11:33:07 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-12 11:33:07 - HHH000412: Hibernate ORM core version 6.4.1.Final
+2025-02-12 11:33:07 - HHH000026: Second-level cache disabled
+2025-02-12 11:33:07 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-12 11:33:07 - HikariPool-1 - Starting...
+2025-02-12 11:33:07 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@63326a3a
+2025-02-12 11:33:07 - HikariPool-1 - Start completed.
+2025-02-12 11:33:07 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-12 11:33:08 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-12 11:33:08 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12 11:33:08 - FileUploadController loaded successfully.
+2025-02-12 11:33:08 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-12 11:33:08 - Starting ProtocolHandler ["http-nio-8080"]
+2025-02-12 11:33:08 - Tomcat started on port 8080 (http) with context path ''
+2025-02-12 11:33:08 - Started FileStorageServiceApplication in 2.089 seconds (process running for 2.232)
+2025-02-12 11:33:46 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-12 11:33:46 - Initializing Servlet 'dispatcherServlet'
+2025-02-12 11:33:46 - Completed initialization in 6 ms
+2025-02-12 11:33:47 - Init duration for springdoc-openapi is: 172 ms
+2025-02-12 11:33:53 - Target directory found: /Users/edakocaman/Downloads/FileStorageService/upload-dir/test12/test13
+2025-02-12 11:33:53 - SourcePath: /Users/edakocaman/Downloads/FileStorageService/upload-dir/test17
+2025-02-12 11:33:53 - TargetPath: /Users/edakocaman/Downloads/FileStorageService/upload-dir/test12/test13/test17_copy
+2025-02-12 11:33:53 - Directory copied successfully: /Users/edakocaman/Downloads/FileStorageService/upload-dir/test17 -> /Users/edakocaman/Downloads/FileStorageService/upload-dir/test12/test13/test17_copy
+2025-02-12 11:33:53 - New directory record created: 3653652c-5657-4a7a-89ff-90153c09240f
+2025-02-12 11:34:46 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12 11:34:46 - HikariPool-1 - Shutdown initiated...
+2025-02-12 11:34:46 - HikariPool-1 - Shutdown completed.
+2025-02-12 11:34:59 - HV000001: Hibernate Validator 8.0.1.Final
+2025-02-12 11:34:59 - Starting FileStorageServiceApplication using Java 17.0.13 with PID 37204 (/Users/edakocaman/Downloads/FileStorageService/build/classes/java/main started by edakocaman in /Users/edakocaman/Downloads/FileStorageService)
+2025-02-12 11:34:59 - Running with Spring Boot v3.2.2, Spring v6.1.3
+2025-02-12 11:34:59 - No active profile set, falling back to 1 default profile: "default"
+2025-02-12 11:34:59 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-12 11:34:59 - Finished Spring Data repository scanning in 75 ms. Found 4 JPA repository interfaces.
+2025-02-12 11:34:59 - Tomcat initialized with port 8080 (http)
+2025-02-12 11:34:59 - Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-12 11:34:59 - Starting service [Tomcat]
+2025-02-12 11:34:59 - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2025-02-12 11:34:59 - Initializing Spring embedded WebApplicationContext
+2025-02-12 11:34:59 - Root WebApplicationContext: initialization completed in 660 ms
+2025-02-12 11:34:59 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-12 11:34:59 - HHH000412: Hibernate ORM core version 6.4.1.Final
+2025-02-12 11:34:59 - HHH000026: Second-level cache disabled
+2025-02-12 11:34:59 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-12 11:35:00 - HikariPool-1 - Starting...
+2025-02-12 11:35:00 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4aac81ca
+2025-02-12 11:35:00 - HikariPool-1 - Start completed.
+2025-02-12 11:35:00 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-12 11:35:00 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-12 11:35:00 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12 11:35:00 - FileUploadController loaded successfully.
+2025-02-12 11:35:01 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-12 11:35:01 - Starting ProtocolHandler ["http-nio-8080"]
+2025-02-12 11:35:01 - Tomcat started on port 8080 (http) with context path ''
+2025-02-12 11:35:01 - Started FileStorageServiceApplication in 2.36 seconds (process running for 2.503)
+2025-02-12 11:35:01 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-12 11:35:01 - Initializing Servlet 'dispatcherServlet'
+2025-02-12 11:35:01 - Completed initialization in 1 ms
+2025-02-12 11:35:02 - Init duration for springdoc-openapi is: 227 ms
+2025-02-12 11:35:10 - Target directory found: /Users/edakocaman/Downloads/FileStorageService/upload-dir/test12/test13
+2025-02-12 11:35:10 - SourcePath: /Users/edakocaman/Downloads/FileStorageService/upload-dir/test17
+2025-02-12 11:35:10 - TargetPath: /Users/edakocaman/Downloads/FileStorageService/upload-dir/test12/test13/test17_copy
+2025-02-12 11:35:10 - Directory copied successfully: /Users/edakocaman/Downloads/FileStorageService/upload-dir/test17 -> /Users/edakocaman/Downloads/FileStorageService/upload-dir/test12/test13/test17_copy
+2025-02-12 11:35:10 - New directory record created: 21cac18f-ea41-4691-add8-0972d22a499f
+2025-02-12 11:38:50 - Full Path: /Users/edakocaman/Downloads/FileStorageService/upload-dir/testDir18
+2025-02-12 11:38:50 - GET DIRECTORY: name: testDir18full path: /Users/edakocaman/Downloads/FileStorageService/upload-dir/testDir18user: User(id=3, uuid=3e013e53-c3aa-4cfb-b7d9-a4d58c978172, username=EdaKocaman, password=123, createdAt=2025-01-28T10:43:29.731555)parent: null
+2025-02-12 11:38:50 - Directory created successfully (logAudit)
+2025-02-12 13:11:51 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-12 13:11:51 - HikariPool-1 - Shutdown initiated...
+2025-02-12 13:11:51 - HikariPool-1 - Shutdown completed.

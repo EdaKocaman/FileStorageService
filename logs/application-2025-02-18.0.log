@@ -1,0 +1,81 @@
+2025-02-18 21:03:43 - HV000001: Hibernate Validator 8.0.1.Final
+2025-02-18 21:03:43 - Starting FileStorageServiceApplication using Java 17.0.13 with PID 22569 (/Users/edakocaman/Downloads/FileStorageService/build/classes/java/main started by edakocaman in /Users/edakocaman/Downloads/FileStorageService)
+2025-02-18 21:03:43 - Running with Spring Boot v3.2.2, Spring v6.1.3
+2025-02-18 21:03:43 - No active profile set, falling back to 1 default profile: "default"
+2025-02-18 21:03:43 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-18 21:03:43 - Finished Spring Data repository scanning in 76 ms. Found 6 JPA repository interfaces.
+2025-02-18 21:03:44 - Tomcat initialized with port 8080 (http)
+2025-02-18 21:03:44 - Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-18 21:03:44 - Starting service [Tomcat]
+2025-02-18 21:03:44 - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2025-02-18 21:03:44 - Initializing Spring embedded WebApplicationContext
+2025-02-18 21:03:44 - Root WebApplicationContext: initialization completed in 653 ms
+2025-02-18 21:03:44 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-18 21:03:44 - HHH000412: Hibernate ORM core version 6.4.1.Final
+2025-02-18 21:03:44 - HHH000026: Second-level cache disabled
+2025-02-18 21:03:44 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-18 21:03:44 - HikariPool-1 - Starting...
+2025-02-18 21:03:44 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@126a9a3d
+2025-02-18 21:03:44 - HikariPool-1 - Start completed.
+2025-02-18 21:03:44 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-18 21:03:44 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-18 21:03:45 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-18 21:03:45 - FileUploadController loaded successfully.
+2025-02-18 21:03:45 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-18 21:03:45 - Starting ProtocolHandler ["http-nio-8080"]
+2025-02-18 21:03:45 - Tomcat started on port 8080 (http) with context path ''
+2025-02-18 21:03:45 - Started FileStorageServiceApplication in 2.208 seconds (process running for 2.38)
+2025-02-18 21:03:53 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-18 21:03:53 - Initializing Servlet 'dispatcherServlet'
+2025-02-18 21:03:53 - Completed initialization in 5 ms
+2025-02-18 21:03:54 - Init duration for springdoc-openapi is: 178 ms
+2025-02-18 21:04:04 - Error creating user: Argument [CREATE_USER] of type [com.example.FileStorageService.enums.Roles] did not match parameter type [com.example.FileStorageService.model.Role (n/a)]
+2025-02-18 21:49:42 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m27s950ms).
+2025-02-18 21:58:11 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58s554ms).
+2025-02-18 22:07:45 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m33s431ms).
+2025-02-18 22:26:55 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58s545ms).
+2025-02-18 22:29:53 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m57s270ms).
+2025-02-18 22:47:40 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m47s59ms).
+2025-02-18 22:57:04 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m54s317ms).
+2025-02-18 23:34:23 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m48s426ms).
+2025-02-18 23:43:04 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m10s659ms).
+2025-02-18 23:50:05 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-18 23:50:05 - HikariPool-1 - Shutdown initiated...
+2025-02-18 23:50:05 - HikariPool-1 - Shutdown completed.
+2025-02-18 23:50:21 - HV000001: Hibernate Validator 8.0.1.Final
+2025-02-18 23:50:21 - Starting FileStorageServiceApplication using Java 17.0.13 with PID 27183 (/Users/edakocaman/Downloads/FileStorageService/build/classes/java/main started by edakocaman in /Users/edakocaman/Downloads/FileStorageService)
+2025-02-18 23:50:21 - Running with Spring Boot v3.2.2, Spring v6.1.3
+2025-02-18 23:50:21 - No active profile set, falling back to 1 default profile: "default"
+2025-02-18 23:50:22 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-18 23:50:22 - Finished Spring Data repository scanning in 75 ms. Found 6 JPA repository interfaces.
+2025-02-18 23:50:22 - Tomcat initialized with port 8080 (http)
+2025-02-18 23:50:22 - Initializing ProtocolHandler ["http-nio-8080"]
+2025-02-18 23:50:22 - Starting service [Tomcat]
+2025-02-18 23:50:22 - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2025-02-18 23:50:22 - Initializing Spring embedded WebApplicationContext
+2025-02-18 23:50:22 - Root WebApplicationContext: initialization completed in 628 ms
+2025-02-18 23:50:22 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-18 23:50:22 - HHH000412: Hibernate ORM core version 6.4.1.Final
+2025-02-18 23:50:22 - HHH000026: Second-level cache disabled
+2025-02-18 23:50:22 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-02-18 23:50:22 - HikariPool-1 - Starting...
+2025-02-18 23:50:22 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@126a9a3d
+2025-02-18 23:50:22 - HikariPool-1 - Start completed.
+2025-02-18 23:50:22 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-02-18 23:50:23 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-02-18 23:50:23 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-18 23:50:23 - FileUploadController loaded successfully.
+2025-02-18 23:50:23 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-18 23:50:23 - Starting ProtocolHandler ["http-nio-8080"]
+2025-02-18 23:50:23 - Tomcat started on port 8080 (http) with context path ''
+2025-02-18 23:50:23 - Started FileStorageServiceApplication in 2.132 seconds (process running for 2.278)
+2025-02-18 23:50:28 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-18 23:50:28 - Initializing Servlet 'dispatcherServlet'
+2025-02-18 23:50:28 - Completed initialization in 5 ms
+2025-02-18 23:50:28 - Init duration for springdoc-openapi is: 182 ms
+2025-02-18 23:50:43 - Permission check: true
+2025-02-18 23:50:43 - Creating user with username: user3
+2025-02-18 23:50:43 - Creating new user with username: user3
+2025-02-18 23:51:58 - Permission check: false
+2025-02-18 23:51:58 - Permission denied: CREATE_USER
+2025-02-18 23:51:58 - Error creating user: Permission denied: CREATE_USER
