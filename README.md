@@ -50,7 +50,7 @@ To develop a robust, permission-aware, and OS-independent file management servic
 - Spring Data JPA
 - PostgreSQL
 - Swagger / OpenAPI
-- Maven
+- Gradle
 
 ---
 
